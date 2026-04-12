@@ -1,0 +1,84 @@
+CSE FEST 2025 ULAB
+===================
+1. Permutation game:
+https://codeforces.com/problemset/problem/1968/D
+
+2. Freya legends:
+https://codeforces.com/problemset/problem/2009/C
+
+3. A very long hike:
+https://codeforces.com/problemset/problem/2068/G
+
+4. Remove the ends:
+https://codeforces.com/problemset/problem/2064/C
+
+5. Replace character:
+https://codeforces.com/problemset/problem/2047/B
+
+
+PROGRAMMING CONTEST 2025 (OCTOBER) ULAB
+========================================
+>> Interesting contest: https://codeforces.com/contest/1985
+
+1. Watermelon:
+https://codeforces.com/contest/4/problem/A
+
+2. Alice and Books
+https://codeforces.com/contest/1978/problem/A
+
+3. Creating Words:
+https://codeforces.com/contest/1985/problem/A
+
+4. Cheap Travel:
+https://codeforces.com/contest/466/problem/A
+
+5. Good Prefixes:
+https://codeforces.com/contest/1985/problem/C
+
+6. Kefa and Park:
+https://codeforces.com/contest/580/problem/C
+
+7. Maximum Multiple Sum:
+https://codeforces.com/contest/1985/problem/B
+
+8. Yet Another String Matching Problem:
+https://codeforces.com/contest/954/problem/I
+
+9. Ordering Tasks:
+https://onlinejudge.org/external/103/10305.pdf
+
+10. Boredom:
+https://codeforces.com/contest/455/problem/A
+
+
+PROGRAMMING CONTEST 2026 (APRIL) ULAB
+========================================
+1. Way Too Long Words
+https://codeforces.com/problemset/problem/71/A
+
+2. Creating Words:
+https://codeforces.com/contest/1985/problem/A
+
+3. Maximum Multiple Sum:
+https://codeforces.com/contest/1985/problem/B
+
+4. Good Array
+https://codeforces.com/problemset/problem/1077/C
+
+5. Helpful Maths
+https://codeforces.com/problemset/problem/339/A
+
+6. Christmas Tree Un-decoration
+https://codeforces.com/problemset/problem/2206/D
+
+7. Parallel Sums
+https://codeforces.com/contest/2206/problem/E
+
+8. Chocolate
+https://codeforces.com/problemset/problem/617/B
+
+9. Increasing Subsequences
+https://codeforces.com/problemset/problem/1922/E
+
+10. Flowers
+https://codeforces.com/problemset/problem/474/D
