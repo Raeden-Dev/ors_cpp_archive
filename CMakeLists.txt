@@ -11,5 +11,6 @@ foreach(SRC_FILE ${SRC_FILES})
     add_executable(${EXECUTABLE_NAME} ${SRC_FILE}
             com/ors/problems/ulab_contest/april_2026_cp_contest/way_too_long_words.cpp
             com/ors/problems/ulab_contest/april_2026_cp_contest/creating_words.cpp
-            com/ors/problems/ulab_contest/april_2026_cp_contest/maximum_multiple_sum.cpp)
+            com/ors/problems/ulab_contest/april_2026_cp_contest/maximum_multiple_sum.cpp
+            com/ors/problems/ulab_contest/april_2026_cp_contest/helpful_maths.cpp)
 endforeach()
