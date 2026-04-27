@@ -81,5 +81,18 @@ int main() {
         cout << "Permutation of 'abc': " << s8 << endl;
     } while (next_permutation(all(s8)));
 
+    // checking for upper or lower case
+    char c1 = 'A';
+    char c2 = 'B';
+    char k = '@';
+
+    if (isupper(c1)) cout << c1 << " is uppercase!" << endl;
+    else if (islower(c1)) cout << c1 << " is lowercase!" << endl;
+    else cout << c1 << " is not upper or lowercase!" << endl;
+
+    if (isupper(k)) cout << k << " is uppercase!" << endl;
+    else if (islower(k)) cout << k << " is lowercase!" << endl;
+    else cout << k << " is not upper or lowercase!" << endl;
+
     return 0;
 }
