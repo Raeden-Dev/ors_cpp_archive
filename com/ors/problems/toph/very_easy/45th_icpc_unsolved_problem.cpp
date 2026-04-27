@@ -15,8 +15,6 @@ using namespace std;
 int main() {
     FastRead;
 
-    int n;
-    cin >> n;
-
+    cout << "ZEROONE\n";
     return 0;
 }

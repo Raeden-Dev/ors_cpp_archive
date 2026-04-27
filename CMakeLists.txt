@@ -14,11 +14,12 @@ foreach(SRC_FILE ${SRC_FILES})
             com/ors/problems/toph/very_easy/icpc_seat_plan.cpp
             com/ors/problems/toph/very_easy/alayna_and_strings.cpp
             com/ors/problems/toph/very_easy/gpa_calculator.cpp
-            com/ors/problems/toph/very_easy/make_it_big.cpp
+            com/ors/problems/unsolved_problematic_questions/make_it_big.cpp
             com/ors/problems/toph/very_easy/prochur_chuti_lagbe.cpp
             com/ors/problems/toph/very_easy/who_is_the_champion.cpp
             com/ors/problems/toph/very_easy/45th_icpc_unsolved_problem.cpp
             com/ors/problems/toph/very_easy/tree_knapsack_problem.cpp
             com/ors/problems/toph/very_easy/game_of_tic_tac_toe.cpp
-            com/ors/basics/testcase_handling.cpp)
+            com/ors/basics/testcase_handling.cpp
+            com/ors/problems/toph/very_easy/collectors_problem.cpp)
 endforeach()

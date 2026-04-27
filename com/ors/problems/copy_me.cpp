@@ -1,4 +1,4 @@
-// QUESTION LINK: 
+// QUESTION LINK:
 
 #include <bits/stdc++.h>
 using namespace std;
