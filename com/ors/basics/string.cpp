@@ -94,5 +94,13 @@ int main() {
     else if (islower(k)) cout << k << " is lowercase!" << endl;
     else cout << k << " is not upper or lowercase!" << endl;
 
+    // Removing character sequence
+    string k1 = "kkkkabceee";
+    string target = "abc";
+    size_t pos = s.find(target);
+    if (pos != string::npos) {
+        s.erase(pos, target.length());
+    }
+
     return 0;
 }
