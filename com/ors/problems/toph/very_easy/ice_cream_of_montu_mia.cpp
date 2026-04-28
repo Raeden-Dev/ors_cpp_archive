@@ -1,4 +1,4 @@
-// QUESTION LINK:
+// QUESTION LINK: https://toph.co/p/ice-cream-of-montu-mia
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -15,11 +15,19 @@ using namespace std;
 int main() {
     FastRead;
 
-    int t;
-    cin >> t;
+    int t, a, b, c;
+    cin >> t >> a >> b >> c;
 
-    for (int i = 0; i < t; i++) {
+    bool canBuy = false;
 
+    if (t - a >= 10 || t - b >= 10 || t - c >= 10) {
+        canBuy = true;
+    }
+
+    if (canBuy) {
+        cout << "Yes :-D" << "\n";
+    } else {
+        cout << "No :-(" << "\n";
     }
 
     return 0;

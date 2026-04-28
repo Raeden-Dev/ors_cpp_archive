@@ -19,7 +19,11 @@ int main() {
     cin >> t;
 
     for (int i = 0; i < t; i++) {
-
+        string s;
+        cin >> s;
+        s = s.substr(0, s.size() / 2);
+        reverse(all(s));
+        cout << s << "\n";
     }
 
     return 0;
