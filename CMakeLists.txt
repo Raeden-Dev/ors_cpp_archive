@@ -14,5 +14,13 @@ foreach(SRC_FILE ${SRC_FILES})
             com/ors/problems/toph/very_easy/shimantos_paralellogram.cpp
             com/ors/problems/toph/very_easy/the_haunted_house.cpp
             com/ors/problems/toph/very_easy/ice_cream_of_montu_mia.cpp
-            com/ors/problems/toph/very_easy/jigsaw_puzzle.cpp)
+            com/ors/problems/toph/very_easy/jigsaw_puzzle.cpp
+            com/ors/problems/toph/troll_questions_very_hard/kathal_game.cpp
+            com/ors/problems/toph/troll_questions_very_hard/the_power_of_choice.cpp
+            com/ors/problems/toph/troll_questions_very_hard/if_else_eat.cpp
+            com/ors/problems/toph/troll_questions_very_hard/hot_wheels_cold_tires.cpp
+            com/ors/problems/toph/troll_questions_very_hard/one_step_to_the_acm_lab.cpp
+            com/ors/problems/toph/troll_questions_very_hard/the_perfect_score.cpp
+            com/ors/problems/toph/easy/nth_prime.cpp
+            com/ors/problems/toph/troll_questions_very_hard/shukrans_dilemma.cpp)
 endforeach()
