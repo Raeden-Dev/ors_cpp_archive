@@ -22,5 +22,12 @@ foreach(SRC_FILE ${SRC_FILES})
             com/ors/problems/toph/troll_questions_very_hard/one_step_to_the_acm_lab.cpp
             com/ors/problems/toph/troll_questions_very_hard/the_perfect_score.cpp
             com/ors/problems/toph/easy/nth_prime.cpp
-            com/ors/problems/toph/troll_questions_very_hard/shukrans_dilemma.cpp)
+            com/ors/problems/toph/troll_questions_very_hard/shukrans_dilemma.cpp
+            com/ors/problems/toph/troll_questions_very_hard/heist_double_trouble.cpp
+            com/ors/problems/toph/very_easy/be_like_hasib.cpp
+            com/ors/problems/toph/moderate/circle_of_boltu.cpp
+            com/ors/problems/toph/moderate/plant_trees_save_life.cpp
+            com/ors/problems/toph/very_easy/once_upon_a_time_in_dhaka.cpp
+            com/ors/problems/toph/troll_questions_very_hard/help_them.cpp
+            com/ors/problems/toph/moderate/dilus_library.cpp)
 endforeach()

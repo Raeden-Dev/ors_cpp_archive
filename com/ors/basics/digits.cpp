@@ -53,4 +53,33 @@ int main () {
     int ones_place = num % 10;
     // To get the '1' in 12 you need to
     int tens_place = num / 10;
+
+    // 1. floor() - Pulls number down to the nearest whole integer
+    cout << floor(2.1) << "\n"; // Output: 2
+    cout << floor(2.9) << "\n"; // Output: 2
+
+    // 2. ceil() - Pulls the number up to the nearest whole integer
+    cout << ceil(2.1) << "\n"; // Output: 3
+    cout << ceil(2.9) << "\n"; // Output: 3
+
+    // 3. round() - rounds down if < 0.5 or rounds up if >= 0.5
+    cout << round(2.4) << "\n"; // Output: 2
+    cout << round(2.5) << "\n"; // Output: 3
+
+    // Square root
+    double a = 25.0;
+    cout << sqrt(a) << "\n";
+
+    double base = 2.0;
+    double exponent = 3.0;
+    cout << pow(base, exponent) << "\n";
+
+    // Find the minimum among a bunch of numbers
+    int k =  min({5, 4, 8});
+    cout << "min: " << k << "\n";
+    // Find the maximum among a bunch of numbers
+    int l = max({5, 4, 8});
+    cout << "max: " <<  l << "\n";
+
+
 }
