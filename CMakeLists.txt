@@ -29,5 +29,16 @@ foreach(SRC_FILE ${SRC_FILES})
             com/ors/problems/toph/moderate/plant_trees_save_life.cpp
             com/ors/problems/toph/very_easy/once_upon_a_time_in_dhaka.cpp
             com/ors/problems/toph/troll_questions_very_hard/help_them.cpp
-            com/ors/problems/toph/moderate/dilus_library.cpp)
+            com/ors/problems/toph/moderate/dilus_library.cpp
+            com/ors/problems/toph/very_easy/version_checker.cpp
+            com/ors/basics/string/substring_1.cpp
+            com/ors/problems/toph/very_easy/why_dont_you_guys_believe_him.cpp
+            com/ors/problems/toph/very_easy/chief_thief.cpp
+            com/ors/problems/toph/very_easy/strong_passwords.cpp
+            com/ors/problems/toph/very_easy/array_sorting.cpp
+            com/ors/problems/toph/very_easy/ant_query.cpp
+            com/ors/basics/bitmasking_bitmanipulation/bitmasking_basics.cpp
+            com/ors/problems/toph/unranked/i_did_not_do_the_assignment.cpp
+            com/ors/problems/toph/very_easy/sum_equals_lcm.cpp
+            com/ors/problems/toph/very_easy/eet_izz_phet.cpp)
 endforeach()

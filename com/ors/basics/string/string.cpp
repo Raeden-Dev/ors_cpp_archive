@@ -24,6 +24,7 @@ int main() {
     cout << "Numbers to String: " << str2int << " | " << str2LL << endl;
 
     // Substringing index starts from 0 (Sakib starts from 7th idx and is 5 char long)
+    // IMPORTANT: Substring is not (startIndex, endIndex), It is: (startIndex, length)
     string s2 = "Sadman Sakib";
     string substr1 = s2.substr(7, 5);
     cout << "Substr of (Sadman Sakib) with (7,5): " << substr1 << endl;

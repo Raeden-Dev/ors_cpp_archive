@@ -41,4 +41,16 @@ int main () {
     } else {
         cout << "The number " << target << " is not in the vector.\n";
     }
+
+    // Copy a vector
+    vector<int> c = {1,2,3};
+    vector<int> cc = c;
+
+    // Remove element(s) from a vector
+    // NOTE: This removes all duplicate numbers as well!
+    cc.erase(remove(all(cc), 2), cc.end());
+
+    // Remove element of a certain index:
+    int idx = 1;
+    cc.erase(cc.begin() + idx);
 }
