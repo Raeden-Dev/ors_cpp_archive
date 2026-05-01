@@ -1,4 +1,4 @@
-// QUESTION LINK: https://toph.co/p/who-is-the-champion
+// QUESTION LINK: https://toph.co/p/power-of-army
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -15,19 +15,19 @@ using namespace std;
 int main() {
     FastRead;
 
-    int a,b;
-    cin >> a >> b;
+    int t;
+    cin >> t;
 
-    if (a > b) {
-        cout << "Champion\n";
-    } else {
-        cout << "Runner up\n";
-    }
+    for (int i = 0; i < t; i++) {
+        int n;
+        cin >> n;
+        vector<int> s(n);
+        for (int j = 0; j < n; j++) {
+            cin >> s[j];
+        }
+        int power = *max_element(all(s)) - *min_element(all(s));
 
-    if (b > a) {
-        cout << "Champion\n";
-    } else {
-        cout << "Runner up\n";
+        cout << power << "\n";
     }
 
     return 0;

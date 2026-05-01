@@ -1,5 +1,7 @@
 // QUESTION LINK: https://toph.co/p/chief-thief
 
+// UNSOLVED, the algorithm below isn't correct. And submission resulted in repeated wrong answers
+
 #include <bits/stdc++.h>
 using namespace std;
 

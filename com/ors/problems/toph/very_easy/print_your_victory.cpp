@@ -1,4 +1,4 @@
-// QUESTION LINK: https://toph.co/p/who-is-the-champion
+// QUESTION LINK: https://toph.co/p/a-print-your-victory
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -14,21 +14,6 @@ using namespace std;
 
 int main() {
     FastRead;
-
-    int a,b;
-    cin >> a >> b;
-
-    if (a > b) {
-        cout << "Champion\n";
-    } else {
-        cout << "Runner up\n";
-    }
-
-    if (b > a) {
-        cout << "Champion\n";
-    } else {
-        cout << "Runner up\n";
-    }
-
+    cout << "Red light. Green light. Accepted.\n";
     return 0;
 }

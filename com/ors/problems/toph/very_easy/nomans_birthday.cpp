@@ -1,4 +1,6 @@
-// QUESTION LINK: https://toph.co/p/who-is-the-champion
+// QUESTION LINK: https://toph.co/p/robin-s-birthday
+
+
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -15,19 +17,24 @@ using namespace std;
 int main() {
     FastRead;
 
-    int a,b;
-    cin >> a >> b;
+    int t;
+    cin >> t;
 
-    if (a > b) {
-        cout << "Champion\n";
-    } else {
-        cout << "Runner up\n";
+    string s;
+    cin >> s;
+
+    bool nc = false;
+
+    for (int i = 1; i < t; i++) {
+        if (s[i] == s[i-1]) {
+            cout << "Change needed\n";
+            nc = true;
+            break;
+        }
     }
 
-    if (b > a) {
-        cout << "Champion\n";
-    } else {
-        cout << "Runner up\n";
+    if (!nc) {
+        cout << "No change needed\n";
     }
 
     return 0;

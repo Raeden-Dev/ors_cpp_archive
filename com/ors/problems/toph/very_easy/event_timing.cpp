@@ -1,4 +1,4 @@
-// QUESTION LINK: https://toph.co/p/who-is-the-champion
+// QUESTION LINK: https://toph.co/p/event-timing
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -15,19 +15,15 @@ using namespace std;
 int main() {
     FastRead;
 
-    int a,b;
-    cin >> a >> b;
+    int t;
+    cin >> t;
 
-    if (a > b) {
-        cout << "Champion\n";
-    } else {
-        cout << "Runner up\n";
-    }
+    for (int i = 0; i < t; i++) {
+        LL p,k,d;
+        cin >> p >> k >> d;
+        LL time = p + ((k / d) + 1) * d;
 
-    if (b > a) {
-        cout << "Champion\n";
-    } else {
-        cout << "Runner up\n";
+        cout << "Case " << i+1 << ": " << time << "\n";
     }
 
     return 0;

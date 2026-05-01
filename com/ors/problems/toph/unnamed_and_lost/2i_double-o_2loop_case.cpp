@@ -15,8 +15,24 @@ using namespace std;
 int main() {
     FastRead;
 
-    int n;
+    int n, m;
     cin >> n;
+    double results[n];
+
+    for (int i = 0; i < n; i++) {
+        cin >> m;
+        double sum = 0.0;
+        for (int j = 0; j < m; j++) {
+            double d;
+            cin >> d;
+            sum = sum + d;
+        }
+
+    }
+
+    for (int s = 1; s <= n; s++) {
+        cout << "Case " << s << ": " << results[s-1];
+    }
 
     return 0;
 }

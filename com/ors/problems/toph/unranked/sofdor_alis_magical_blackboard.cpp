@@ -1,4 +1,4 @@
-// QUESTION LINK: https://toph.co/p/who-is-the-champion
+// QUESTION LINK: https://toph.co/p/sofdor-alis-magical-blackboard
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -15,19 +15,18 @@ using namespace std;
 int main() {
     FastRead;
 
-    int a,b;
-    cin >> a >> b;
+    LL t;
+    cin >> t;
 
-    if (a > b) {
-        cout << "Champion\n";
-    } else {
-        cout << "Runner up\n";
-    }
+    for (LL i = 0; i < t; i++) {
+        LL x,y, r=0;
+        cin >> x >> y;
 
-    if (b > a) {
-        cout << "Champion\n";
-    } else {
-        cout << "Runner up\n";
+        for (LL j = 0; j < y; j++) {
+            r += x;
+        }
+
+        cout << r << "\n";
     }
 
     return 0;
