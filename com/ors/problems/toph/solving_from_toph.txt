@@ -1,0 +1,87 @@
+** If you want to have a go at the questions at toph, try these and maintain sequence.
+
+For tutorial / cheatsheet of C++ check out: https://github.com/Raeden-Dev/ors_cpp_archive
+
+** Note: Difficulty is assumed by me, some "very easy" questions at toph can be challenging for beginners without proper knowledge of basics.
+
+A. "Troll" questions:
+=====================
+** Troll cause they are marked as "very hard", you can solve these in a minute.
+
+1) https://toph.co/p/the-perfect-score
+2) https://toph.co/p/the-power-of-choice
+3) https://toph.co/p/hot-wheels-cold-tires
+4) https://toph.co/p/if-else-eat
+5) https://toph.co/p/kathal-game
+6) https://toph.co/p/shukran-s-dilemma
+7) https://toph.co/p/45th-icpc-unsolved-problem
+8) https://toph.co/p/a-print-your-victory
+9) https://toph.co/p/strong-passwords
+10) https://toph.co/p/the-boat-filled-with-love
+11) https://toph.co/p/who-is-the-champion
+
+B. "Very Easy" questions:
+=========================
+** Achievable in 10-15 min if you have experience with C++ and with a little bit of thinking.
+
+1) https://toph.co/p/alayna-and-strings
+2) https://toph.co/p/ice-cream-of-montu-mia
+3) https://toph.co/p/icpc-seat-plan
+4) https://toph.co/p/robin-s-birthday
+5) https://toph.co/p/nusrat-apur-treat
+6) https://toph.co/p/once-upon-a-time-in-dhaka
+7) https://toph.co/p/power-of-army
+8) https://toph.co/p/the-haunted-house
+9) https://toph.co/p/the-titan
+10) https://toph.co/p/why-don-t-you-guys-believe-him
+11) https://toph.co/p/i-did-not-do-the-assignment
+12) https://toph.co/p/sofdor-alis-magical-blackboard
+13) https://toph.co/p/is-prime
+14) https://toph.co/p/test-cases
+
+C. "Easy" questions:
+====================
+** Achievable in <30 min if you knowledge on most basic stuff of c++ like maps, pairs, vectors. You still have to do some thinking.
+
+1) https://toph.co/p/a-feast-for-the-fans
+2) https://toph.co/p/find-prime
+3) https://toph.co/p/genius-needs-help
+4) https://toph.co/p/gpa-calculator
+5) https://toph.co/p/identify-the-level
+6) https://toph.co/p/love-letters
+7) https://toph.co/p/matching-brackets
+8) https://toph.co/p/shimanto-s-parallelograms
+9) https://toph.co/p/heist-double-trouble
+10) https://toph.co/p/help-them
+11) https://toph.co/p/prime-plus-prime
+12) https://toph.co/p/caesar-cipher
+13) https://toph.co/p/free-pizza
+14) https://toph.co/p/oh-no-classes
+15) https://toph.co/p/follow-the-beats
+16) https://toph.co/p/goat-research
+17) https://toph.co/p/neat-brackets
+
+D. "Moderate" questions:
+========================
+** This is where you start working your brain and basics of C++.
+
+1) https://toph.co/p/the-depressed-guy
+2) https://toph.co/p/version-checker
+3) https://toph.co/p/fibonacci-between
+4) https://toph.co/p/n-th-prime
+5) https://toph.co/p/print-the-words
+6) https://toph.co/p/circle-of-boltu
+7) https://toph.co/p/closest-pair
+8) https://toph.co/p/incompatible-crops
+9) https://toph.co/p/mines
+
+E. "Hard" / "Unsolved" questions:
+=================================
+** I haven't reached this point yet but significantly more difficult than Moderate
+** Attempted a few question but they remain unsolved by me
+
+1) (UNSOLVED) https://toph.co/p/array-sorting
+2) (UNSOLVED) https://toph.co/p/chief-thief
+3) (UNSOLVED) https://toph.co/p/game-of-tic-tac-toe
+4) (UNSOLVED) https://toph.co/p/make-it-big
+5) (UNSOLVED) https://toph.co/p/prochur-chhuti-lagbe

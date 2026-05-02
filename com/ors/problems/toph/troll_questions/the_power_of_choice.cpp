@@ -1,4 +1,4 @@
-// QUESTION LINK: https://toph.co/p/kathal-game
+// QUESTION LINK: https://toph.co/p/the-power-of-choice
 
 #include <bits/stdc++.h>
 using namespace std;
