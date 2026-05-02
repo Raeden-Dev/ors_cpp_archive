@@ -17,5 +17,11 @@ foreach(SRC_FILE ${SRC_FILES})
             com/ors/problems/toph/very_easy/power_of_army.cpp
             com/ors/problems/toph/unranked/sofdor_alis_magical_blackboard.cpp
             com/ors/problems/toph/very_easy/event_timing.cpp
-            com/ors/problems/toph/very_easy/print_your_victory.cpp)
+            com/ors/problems/toph/very_easy/print_your_victory.cpp
+            com/ors/problems/toph/very_easy/the_depressed_guy.cpp
+            com/ors/problems/unsolved_problematic_questions/find_nsups.cpp
+            com/ors/problems/toph/easy/fibonacci_in_between.cpp
+            com/ors/problems/toph/easy/prime_plus_prime.cpp
+            com/ors/problems/toph/easy/test_cases.cpp
+            com/ors/problems/toph/easy/print_the_words.cpp)
 endforeach()

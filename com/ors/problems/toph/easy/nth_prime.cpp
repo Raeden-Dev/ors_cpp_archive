@@ -12,7 +12,7 @@ using namespace std;
 #define all(a) a.begin(),a.end()
 #define Unique(a) sort(all(a)),a.erase(unique(all(a)),a.end())
 
-const int MAX = 8500000;
+const int MAX = 9999991;
 bitset<MAX> nums;
 vector<int> primes;
 
