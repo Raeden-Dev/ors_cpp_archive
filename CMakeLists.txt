@@ -23,5 +23,6 @@ foreach(SRC_FILE ${SRC_FILES})
             com/ors/problems/toph/easy/fibonacci_in_between.cpp
             com/ors/problems/toph/easy/prime_plus_prime.cpp
             com/ors/problems/toph/easy/test_cases.cpp
-            com/ors/problems/toph/easy/print_the_words.cpp)
+            com/ors/problems/toph/easy/print_the_words.cpp
+            com/ors/problems/toph/very_easy/shuvo_noboborsho.cpp)
 endforeach()
