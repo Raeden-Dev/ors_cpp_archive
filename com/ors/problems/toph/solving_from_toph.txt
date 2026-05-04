@@ -38,6 +38,8 @@ B. "Very Easy" questions:
 12) https://toph.co/p/sofdor-alis-magical-blackboard
 13) https://toph.co/p/is-prime
 14) https://toph.co/p/test-cases
+15) https://toph.co/p/shuvo-noboborsho
+16) https://toph.co/p/alice-and-the-chessboard
 
 C. "Easy" questions:
 ====================
@@ -60,6 +62,7 @@ C. "Easy" questions:
 15) https://toph.co/p/follow-the-beats
 16) https://toph.co/p/goat-research
 17) https://toph.co/p/neat-brackets
+18) https://toph.co/p/anita-s-experiment
 
 D. "Moderate" questions:
 ========================

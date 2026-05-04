@@ -24,5 +24,9 @@ foreach(SRC_FILE ${SRC_FILES})
             com/ors/problems/toph/easy/prime_plus_prime.cpp
             com/ors/problems/toph/easy/test_cases.cpp
             com/ors/problems/toph/easy/print_the_words.cpp
-            com/ors/problems/toph/very_easy/shuvo_noboborsho.cpp)
+            com/ors/problems/toph/very_easy/shuvo_noboborsho.cpp
+            com/ors/problems/unsolved_problematic_questions/metro_rail_blocks.cpp
+            com/ors/problems/toph/very_easy/farewell_gift_for_messi.cpp
+            com/ors/problems/toph/very_easy/alice_and_the_chessboard.cpp
+            com/ors/problems/toph/very_easy/anitas_experiment.cpp)
 endforeach()
