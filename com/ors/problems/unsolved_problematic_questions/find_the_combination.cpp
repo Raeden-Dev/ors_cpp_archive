@@ -1,4 +1,6 @@
-// QUESTION LINK:
+// QUESTION LINK: https://toph.co/p/find-the-combination
+
+// UNSOLVED, this question is a bit tricky.
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -10,8 +12,12 @@ using namespace std;
 #define inf 0x3f3f3f3f
 #define INF 2e18
 #define all(a) a.begin(),a.end()
-#define rall(a) a.rbegin(),a.rend()
 #define Unique(a) sort(all(a)),a.erase(unique(all(a)),a.end())
+
+LL getCombo(vector<LL> arr, LL x) {
+    vector<LL> sum;
+    
+}
 
 int main() {
     FastRead;
@@ -20,6 +26,13 @@ int main() {
     cin >> t;
 
     for (int i = 0; i < t; i++) {
+        LL n,x;
+        cin >> n >> x;
+        vector<LL> arr(n);
+        for (int j = 0; j < n; j++) {
+            cin >> arr[j];
+        }
+
 
     }
 

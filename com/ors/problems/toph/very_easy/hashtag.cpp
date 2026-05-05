@@ -1,4 +1,4 @@
-// QUESTION LINK:
+// QUESTION LINK: https://toph.co/p/hashtag
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -16,12 +16,21 @@ using namespace std;
 int main() {
     FastRead;
 
-    int t;
-    cin >> t;
+    string s;
+    getline(cin, s);
 
-    for (int i = 0; i < t; i++) {
-
+    int spaces = count(all(s), ' ');
+    if (spaces == 0) {
+        cout << s << "\n";
+        return 0;
     }
+    string k = "";
+    for (int i = 0; i < s.size(); i++) {
+        if (s[i] == ' ') continue;
+        k += s[i];
+    }
+
+    cout << k << "\n";
 
     return 0;
 }
