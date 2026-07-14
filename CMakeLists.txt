@@ -15,5 +15,16 @@ foreach(SRC_FILE ${SRC_FILES})
             com/ors/problems/projecteuler/unsolved/problem_zero.cpp
             com/ors/basics/algorithms/selection_sort.cpp
             com/ors/basics/algorithms/insertion_sort.cpp
-            com/ors/basics/algorithms/quick_sort.cpp)
+            com/ors/basics/algorithms/quick_sort.cpp
+            com/ors/problems/cses/introductory_problems/weird_algorithm.cpp
+            com/ors/problems/cses/introductory_problems/missing_number.cpp
+            com/ors/problems/cses/introductory_problems/repetitions.cpp
+            com/ors/problems/ulab_contest/july_beginner_contest/A.cpp
+            com/ors/problems/ulab_contest/july_beginner_contest/B.cpp
+            com/ors/problems/ulab_contest/july_beginner_contest/C.cpp
+            com/ors/problems/ulab_contest/july_beginner_contest/D.cpp
+            com/ors/problems/ulab_contest/july_beginner_contest/E.cpp
+            com/ors/problems/ulab_contest/july_beginner_contest/F.cpp
+            com/ors/problems/ulab_contest/july_beginner_contest/G.cpp
+            com/ors/problems/ulab_contest/july_beginner_contest/H.cpp)
 endforeach()
