@@ -1,4 +1,5 @@
-// QUESTION LINK:
+// QUESTION LINK: https://cses.fi/problemset/task/1094/
+// 1 wrong answer
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -16,16 +17,20 @@ using namespace std;
 int main() {
     FastRead;
 
-    string s;
-    cin >> s;
+    long long t,m=0;
+    cin >> t;
+    vector<int> arr(t);
 
-    for (int i = 0; i < 1; i++) {
-        char c = s[0];
-        c = toupper(c);
-        s[0] = c;
+    for (int i = 0; i < t; i++) {
+        cin >> arr[i];
+        if (i > 0) {
+            if (arr[i-1] > arr[i]) {
+                m+=arr[i-1] - arr[i];
+                arr[i] = arr[i] + (arr[i-1] - arr[i]);
+            }
+        }
     }
-
-    cout << s << "\n";
+    cout << m << "\n";
 
     return 0;
 }

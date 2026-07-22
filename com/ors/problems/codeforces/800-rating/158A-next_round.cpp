@@ -1,5 +1,5 @@
-// QUESTION LINK:
-// Attempts taken:
+// QUESTION LINK: https://codeforces.com/problemset/problem/158/A
+// Attempts taken: 2
 
 
 #include <bits/stdc++.h>
@@ -20,23 +20,27 @@ const LL INF = 2e18;
 #define all(a) a.begin(),a.end()
 #define rall(a) a.rbegin(),a.rend()
 #define Unique(a) sort(all(a)),a.erase(unique(all(a)),a.end())
-#define Lower(a) transform(a.begin(), a.end(), a.begin(), ::tolower)
-#define Upper(a) transform(a.begin(), a.end(), a.begin(), ::toupper)
-
-void solve() {
-
-}
 
 int main() {
     FastRead;
 
-    int t;
-    cin >> t;
+    int t,k;
+    cin >> t >> k;
+    int r = 0, req = 0;
 
-    while (t--) {
-        solve();
+    vi arr(t);
+
+    for (int i = 0; i < t; i++) {
+        cin >> arr[i];
+    }
+    req = arr[k-1];
+    for (int i = 0; i < t; i++) {
+        if (arr[i] >= req && arr[i] > 0) {
+            r+=1;
+        }
     }
 
+    cout << r << nl;
 
     return 0;
 }

@@ -27,7 +27,6 @@ int main() {
 
     string s;
     cin >> s;
-    int idx=0;
     string k;
     for (int i = 0; i < s.size(); i++) {
         if (isBeat(s, i)) {

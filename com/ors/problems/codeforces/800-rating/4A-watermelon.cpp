@@ -1,5 +1,5 @@
-// QUESTION LINK:
-// Attempts taken:
+// QUESTION LINK: https://codeforces.com/problemset/problem/4/A
+// Attempts taken: 1
 
 
 #include <bits/stdc++.h>
@@ -20,8 +20,6 @@ const LL INF = 2e18;
 #define all(a) a.begin(),a.end()
 #define rall(a) a.rbegin(),a.rend()
 #define Unique(a) sort(all(a)),a.erase(unique(all(a)),a.end())
-#define Lower(a) transform(a.begin(), a.end(), a.begin(), ::tolower)
-#define Upper(a) transform(a.begin(), a.end(), a.begin(), ::toupper)
 
 void solve() {
 
@@ -33,10 +31,14 @@ int main() {
     int t;
     cin >> t;
 
-    while (t--) {
-        solve();
+    if (t == 2) {
+        cout << "NO" << nl;
     }
-
+    else if (t % 2 == 0) {
+        cout << "YES" << nl;
+    } else {
+        cout << "NO" << nl;
+    }
 
     return 0;
 }

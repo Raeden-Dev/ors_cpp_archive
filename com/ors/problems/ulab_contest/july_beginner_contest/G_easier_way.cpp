@@ -18,14 +18,10 @@ int main() {
 
     string s;
     cin >> s;
-
-    for (int i = 0; i < 1; i++) {
-        char c = s[0];
-        c = toupper(c);
-        s[0] = c;
-    }
-
-    cout << s << "\n";
+    size_t p;
+    while ((p = s.find("WUB")) != string::npos)
+        s.replace(p, 3, " ");
+    cout << s;
 
     return 0;
 }

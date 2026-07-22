@@ -8,12 +8,13 @@ using namespace std;
 #define inf 0x3f3f3f3f
 #define INF 2e18
 #define all(a) a.begin(),a.end()
+#define rall(a) a.rbegin(),a.rend()
 #define Unique(a) sort(all(a)),a.erase(unique(all(a)),a.end())
-
 
 int main () {
     FastRead;
 
+    cout << "\n";
     cout << "========================================\n";
     cout << "           title              \n";
     cout << "========================================\n\n";

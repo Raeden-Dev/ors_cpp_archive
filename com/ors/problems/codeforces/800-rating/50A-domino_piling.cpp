@@ -1,4 +1,4 @@
-// QUESTION LINK:
+// QUESTION LINK: https://codeforces.com/problemset/problem/50/A
 // Attempts taken:
 
 
@@ -20,8 +20,6 @@ const LL INF = 2e18;
 #define all(a) a.begin(),a.end()
 #define rall(a) a.rbegin(),a.rend()
 #define Unique(a) sort(all(a)),a.erase(unique(all(a)),a.end())
-#define Lower(a) transform(a.begin(), a.end(), a.begin(), ::tolower)
-#define Upper(a) transform(a.begin(), a.end(), a.begin(), ::toupper)
 
 void solve() {
 
@@ -30,13 +28,10 @@ void solve() {
 int main() {
     FastRead;
 
-    int t;
-    cin >> t;
+    int m, n;
+    cin >> m >> n;
 
-    while (t--) {
-        solve();
-    }
-
+    cout << floor((m * n) / 2) << nl;
 
     return 0;
 }

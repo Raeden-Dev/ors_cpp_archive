@@ -1,4 +1,4 @@
-// QUESTION LINK:
+// QUESTION LINK: https://cses.fi/problemset/task/1070
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -16,16 +16,24 @@ using namespace std;
 int main() {
     FastRead;
 
-    string s;
-    cin >> s;
+    int t;
+    cin >> t;
 
-    for (int i = 0; i < 1; i++) {
-        char c = s[0];
-        c = toupper(c);
-        s[0] = c;
+    if (t==1) {
+        cout << 1 << "\n";
+    }
+    else if (t <= 3) {
+        cout << "NO SOLUTION\n";
+    } else {
+        for (int i = 2; i <= t; i=i+2) {
+            cout << i << ' ';
+        }
+        for (int i = 1; i <= t; i=i+2) {
+            cout << i << ' ';
+        }
+        cout << "\n";
     }
 
-    cout << s << "\n";
 
     return 0;
 }

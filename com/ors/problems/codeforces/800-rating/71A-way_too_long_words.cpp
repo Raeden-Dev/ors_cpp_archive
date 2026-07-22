@@ -1,4 +1,4 @@
-// QUESTION LINK:
+// QUESTION LINK: https://codeforces.com/problemset/problem/71/A
 // Attempts taken:
 
 
@@ -20,11 +20,15 @@ const LL INF = 2e18;
 #define all(a) a.begin(),a.end()
 #define rall(a) a.rbegin(),a.rend()
 #define Unique(a) sort(all(a)),a.erase(unique(all(a)),a.end())
-#define Lower(a) transform(a.begin(), a.end(), a.begin(), ::tolower)
-#define Upper(a) transform(a.begin(), a.end(), a.begin(), ::toupper)
 
 void solve() {
-
+    string s;cin >> s;
+    if (s.length() > 10) {
+        string k = s[0] + to_string(s.size() - 2) + s[s.size() - 1];
+        cout << k << nl;
+    } else {
+        cout << s << nl;
+    }
 }
 
 int main() {
@@ -36,7 +40,6 @@ int main() {
     while (t--) {
         solve();
     }
-
 
     return 0;
 }

@@ -1,5 +1,5 @@
-// QUESTION LINK:
-// Attempts taken:
+// QUESTION LINK: https://codeforces.com/problemset/problem/282/A
+// Attempts taken: 2
 
 
 #include <bits/stdc++.h>
@@ -20,11 +20,15 @@ const LL INF = 2e18;
 #define all(a) a.begin(),a.end()
 #define rall(a) a.rbegin(),a.rend()
 #define Unique(a) sort(all(a)),a.erase(unique(all(a)),a.end())
-#define Lower(a) transform(a.begin(), a.end(), a.begin(), ::tolower)
-#define Upper(a) transform(a.begin(), a.end(), a.begin(), ::toupper)
 
-void solve() {
-
+void solve(int& r) {
+    string s; cin >> s;
+    if (s == "++X" || s == "X++") {
+        r += 1;
+    }
+    else if (s == "--X" || s == "X--") {
+        r -= 1;
+    }
 }
 
 int main() {
@@ -33,10 +37,13 @@ int main() {
     int t;
     cin >> t;
 
+    int r = 0;
+
     while (t--) {
-        solve();
+        solve(r);
     }
 
+    cout << r << nl;
 
     return 0;
 }

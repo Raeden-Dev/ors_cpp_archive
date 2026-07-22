@@ -1,4 +1,4 @@
-// QUESTION LINK:
+// QUESTION LINK: https://codeforces.com/problemset/problem/263/A
 // Attempts taken:
 
 
@@ -20,8 +20,6 @@ const LL INF = 2e18;
 #define all(a) a.begin(),a.end()
 #define rall(a) a.rbegin(),a.rend()
 #define Unique(a) sort(all(a)),a.erase(unique(all(a)),a.end())
-#define Lower(a) transform(a.begin(), a.end(), a.begin(), ::tolower)
-#define Upper(a) transform(a.begin(), a.end(), a.begin(), ::toupper)
 
 void solve() {
 
@@ -30,13 +28,20 @@ void solve() {
 int main() {
     FastRead;
 
-    int t;
-    cin >> t;
+    int arr[5][5];
+    int x=0,y=0;
 
-    while (t--) {
-        solve();
+    for (int i = 0; i < 5; i++) {
+        for (int j = 0; j < 5; j++) {
+            cin >> arr[i][j];
+            if (arr[i][j] == 1) {
+                x=i;
+                y=j;
+            }
+        }
     }
 
+    cout << abs(2-x) + abs(2-y) << nl;
 
     return 0;
 }

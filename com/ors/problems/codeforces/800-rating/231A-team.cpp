@@ -1,4 +1,4 @@
-// QUESTION LINK:
+// QUESTION LINK: https://codeforces.com/problemset/problem/231/A
 // Attempts taken:
 
 
@@ -20,11 +20,12 @@ const LL INF = 2e18;
 #define all(a) a.begin(),a.end()
 #define rall(a) a.rbegin(),a.rend()
 #define Unique(a) sort(all(a)),a.erase(unique(all(a)),a.end())
-#define Lower(a) transform(a.begin(), a.end(), a.begin(), ::tolower)
-#define Upper(a) transform(a.begin(), a.end(), a.begin(), ::toupper)
 
-void solve() {
-
+void solve(int& solved) {
+    int a,b,c; cin >> a >> b >> c;
+    if (a+b+c >= 2) {
+        solved++;
+    }
 }
 
 int main() {
@@ -33,10 +34,13 @@ int main() {
     int t;
     cin >> t;
 
+    int solved = 0;
+
     while (t--) {
-        solve();
+        solve(solved);
     }
 
+    cout << solved << nl;
 
     return 0;
 }
